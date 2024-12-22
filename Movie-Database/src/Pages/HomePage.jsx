@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SearchBar from '../components/Searchbar';
 import MovieList from '../components/MovieList';
-import { searchMovies } from '..ImdbService';
+import { searchMovies } from '../Services/ImdbService';
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
